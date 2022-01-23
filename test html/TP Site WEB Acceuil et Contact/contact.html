@@ -1,0 +1,49 @@
+<html>
+    <head>
+        
+        <meta charset="utf-8"/>
+        <title>TP Site WEB Accueil et Contact</title>
+        <link rel="stylesheet" href="./tpweb.css">
+
+    </head>
+    <body>
+        <header><a href="https://www.pole-emploi.fr/"><img src="https://picsum.photos/800/200" alt="Banniere" /></a>
+        <h1>Un gros Titre</h1>
+    </header>
+    <fieldset>
+        <legend>Demande de Contact</legend>
+        <form method="post" action="monPrgramme.html">
+        <div>
+            <label for="Nom">Nom:</label>
+            <input type="text" name="Nom" placeholder="Ex: Jacques" minlength="2" maxlength="20" id="Nom"/>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="Email" placeholder="Ex: jacques@chirac.fr" id="Email"/>
+        </div>
+        <div>
+            <label for="Commentaire">Commentaires</label><br>
+            <textarea placeholder="J'adore ce que vous faites !" rows="10" cols="70" id="Commentaire"></textarea>
+        </div>
+        <div>
+            <label for="Copie">Envoie d'une copie</label>
+            <input type="checkbox" id="Copie" name="Copie" checked >
+        </div>
+        <div>
+            <input type="submit" value="Envoyer"/>
+            <input type="submit" value="Reset"/>
+        </div>
+
+    </form>
+    </fieldset>
+    <footer>
+        <nav><ul>
+            <li><a href="./index.html">Acceuil</a></li>
+            <li>Blog</li>
+            <li>Gallerie</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    </footer>
+</body>
+</html>

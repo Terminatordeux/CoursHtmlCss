@@ -1,0 +1,26 @@
+<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: red; text-align: center
+}
+a {color: yellowgreen
+}
+
+h3 {color: blue;
+} 
+
+#article1, #article2 {
+  background-color: grey;
+
+}
+#article3{
+    background-color: pink;
+}
+#article2, h3{
+    color: green;
+}
+div1, p { font-size: 2em;
+}

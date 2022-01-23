@@ -1,0 +1,9 @@
+label {
+    text-decoration:seagreen;
+}
+td, th
+{
+    padding: 5px;
+    border:solid 2px black;
+    text-align: center;
+}

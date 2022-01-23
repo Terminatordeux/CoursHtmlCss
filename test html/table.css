@@ -1,0 +1,6 @@
+table {
+    border-style: double;
+    border-color:blueviolet;
+    border-width: 2px;
+    border-collapse: collapse;
+}

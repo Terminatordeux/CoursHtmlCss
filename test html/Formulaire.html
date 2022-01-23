@@ -1,0 +1,101 @@
+<html>
+    <head>
+        
+        <meta charset="utf-8"/>
+        <title>Mise en pratique css et tables</title>
+        <link rel="stylesheet" href="./formulaire.css">
+
+    </head>
+    <body>
+        
+        
+        <h1>Gros titre</h1>
+        <div id="article1"><h3>Titre d'article</h3>Lorem <em>ipsum</em> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</ar>
+        </div>
+        <br>
+        
+
+            <fieldset>
+                <legend>Je suis Ton père !</legend>
+                <form method="post" action="monPrgramme.html">
+                <label for="Prénom">Prénom:</label>
+                <input type="test" name="Prénom" placeholder="Ex: Jacques" maxlength="20" id="Prénom"/>
+            </form>
+            <form method="post" action="monPrgramme.html">
+                <label for="Nom">Nom:</label>
+                <input type="test" name="nom" placeholder="Ex: Dubois" maxlength="20" id="nom"/>
+            </form>
+            <form method="post" action="monPrgramme.html">
+                <label for="Email">Email:</label>
+                <input type="test" name="Email" placeholder="Ex: monadresse@email.com" maxlength="20" id="Email"/>
+            </form>
+            <form method="post" action="monPrgramme.html">
+                <label for="Numéro">Numéro:</label>
+                <input type="test" name="Numéro" placeholder="Ex: 00.11.22.33.44" maxlength="20" id="Numéro"/>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>Nooooooooooooooonnnnnnn!!!!!!</legend>
+            <form method="post" action="monPrgramme.html">
+                <label for="Mot de Passe">Mot de Passe:</label>
+                <input type="password" name="Mot de Passe" placeholder="Ex: @pAssw0Rd" maxlength="20" id="Mot de Passe"/>
+            </form>
+            <form method="post" action="monPrgramme.html">
+                <label for="Age">Age:</label>
+                <input type="number" name="Age" placeholder="Ex: 15" maxlength="20" id="Age"/>
+            </form>
+            <form method="post" action="monPrgramme.html">
+                <label for="Commentaire">Sarah Connor?</label><br>
+                <textarea placeholder="J'adore ce que vous faites !" rows="10" cols="70" id="Commentaire"></textarea>
+            </form>
+            <form method="post" action="monPrgramme.html">
+                <label for="Fichier">Fichier:</label>
+                <input type="file" accept=".pdf"/>
+            </form><br></fieldset>
+            <fieldset>
+                <legend>T'as pas une autre Saga que Starwars?</legend>
+            Vas tu suivre Alice dans le terrier du lapin Blanc?
+            <form method="post" action="monPrgramme.html">
+                <input type="radio" id="radio1" Value="Pilule bleue"/>
+         <label for="radio1">Je choisi la pilule bleu</label>
+         <input type="radio" id="radio2" Value="Pilule Rouge" checked/>
+         <label for="radio2">Je choisi la pilule Rouge</label>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>Tu n'aime pas Starwars ?</legend>
+        Si je n'aime pas Starwars c'est probablement que j'ai eu une enfance de merde!
+        <form method="post" action="monPrgramme.html">
+            <input type="checkbox" id="jadore" name="J'adore" >
+     <label for="jadore">Si j'adore</label>
+     <input type="checkbox" id="merde" name="je suis une merde" checked>
+     <label for="merde">Je n'aime pas trop je suis une merde</label>
+        </form>
+    </fieldset>
+            <fieldset>
+                <legend>Je préfère les series</legend>
+                <form method="POST" action="monProgramme.php">
+                    <label for="liste">Je préfère les series</label>
+                    <select name="liste" id="liste">
+                        <optgroup label="Stargate">
+                            <option value="option1">SG1</option>
+                            <option value="option2">Atlantis</option>
+                            <option value="option3">Universe</option>
+                        </optgroup>
+                        <optgroup label="Autres series">
+                            <option value="option4">Walking Dead</option>
+                            <option value="option5">Stranger Things</option>
+                            <option value="option6">Xfiles</option>
+                        </optgroup>
+                    </select>
+                </form>
+                <form method="POST" action="monProgramme.php">
+                    <input type="submit" value="Vers l'infini!"/>
+                    <input type="submit" value="Et au-delàs!"/>
+                    </form>
+        </fieldset>
+    
+        
+    
+    </body>
+</html>

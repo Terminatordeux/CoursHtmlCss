@@ -1,0 +1,25 @@
+body{
+    background-image: radial-gradient(#CCDAE0, #EDF2F4);
+}
+header {
+text-align: center ;
+}
+h1 {
+    color: #ef233c; font-size: 60px; font-family: Impact;
+}
+
+h3{
+    color: #2b2d42; font-size: x-large; font-weight: bold; text-decoration: underline dotted;
+}
+p{
+    border-style: solid; border-width: 1px; border-color: black;
+}
+footer{
+    text-align: right;
+}
+ul{
+    list-style: none;
+}
+div{
+    align-: center;
+}
